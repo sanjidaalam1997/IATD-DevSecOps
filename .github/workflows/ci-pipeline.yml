@@ -27,7 +27,7 @@ jobs:
           path: junit/test-results.xml
 
 
-build:
+  build:
   needs: test
   runs-on: ubuntu-latest
   steps:

@@ -45,4 +45,4 @@ steps:
     uses: docker/build-push-action@v5
     with:     
         push: true
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/devops-labs:latest
+        tags: ${{ secrets.sanjidaalam  }}/devops-labs:latest

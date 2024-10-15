@@ -45,7 +45,7 @@ jobs:
                 with:     
                   push: true
                   tags: ${{ secrets.DOCKERHUB_USERNAME }}/devops-labs:latest
- submit_results:
+  submit_results:
     needs: [build]
     if: true
     runs-on: ubuntu-latest
